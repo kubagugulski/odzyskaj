@@ -15,6 +15,7 @@ import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import Regulamin from './pages/Regulamin';
 import Polityka from './pages/Polityka';
+import Dziekuje from './pages/Dziekuje';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -50,6 +51,7 @@ export default function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/regulamin" element={<Regulamin />} />
             <Route path="/polityka-prywatnosci" element={<Polityka />} />
+            <Route path="/dziekuje" element={<Dziekuje />} />
           </Routes>
         </div>
         <Footer />

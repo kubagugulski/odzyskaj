@@ -63,8 +63,11 @@ export default function Offer() {
               59 zł
             </div>
             
-            <a href="https://buy.stripe.com/dRmbIUe2p0ajcPs8eWdfG04" className="w-full bg-lime-400 hover:bg-lime-300 text-slate-950 font-black text-lg md:text-xl px-8 py-6 rounded-2xl shadow-[0_0_40px_-10px_rgba(163,230,53,0.4)] transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 mb-8">
-              KUPUJĘ ZA <ArrowRight className="w-6 h-6" />
+            <a 
+              href="https://buy.stripe.com/dRmbIUe2p0ajcPs8eWdfG04" 
+              onclick="if(window.fbq) fbq('track', 'InitiateCheckout', { content_name: 'Jak odzyskać swoje popołudnia', value: 59.00, currency: 'PLN' });"
+              className="w-full bg-lime-400 hover:bg-lime-300 text-slate-950 font-black text-lg md:text-xl px-8 py-6 rounded-2xl shadow-[0_0_40px_-10px_rgba(163,230,53,0.4)] transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 mb-8">
+              KUPUJĘ <ArrowRight className="w-6 h-6" />
             </a>
             
             <div className="flex flex-col items-center gap-5 text-slate-400 w-full">

@@ -29,7 +29,7 @@ export default function FinalCTA() {
           
           <div className="flex flex-col items-center gap-5">
             <a href="#zamowienie" className="w-full sm:w-auto bg-lime-400 hover:bg-lime-300 text-slate-950 font-black text-xl px-10 py-6 rounded-2xl shadow-[0_0_40px_-10px_rgba(163,230,53,0.4)] transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3">
-              KUPUJĘ E-BOOKA ZA 59 ZŁ <ArrowRight className="w-6 h-6" />
+              KUPUJĘ E-BOOKA <ArrowRight className="w-6 h-6" />
             </a>
             <span className="text-slate-500 font-medium">Kliknij, aby odzyskać 3 godziny każdego dnia.</span>
           </div>

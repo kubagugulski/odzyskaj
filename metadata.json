@@ -1,0 +1,6 @@
+{
+  "name": "Odzyskaj Popołudnia - E-book",
+  "description": "Strona sprzedażowa e-booka 'Jak odzyskać swoje popołudnia'.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
